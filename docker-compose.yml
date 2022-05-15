@@ -34,7 +34,7 @@ x-airflow-common:
 
 services:
 
-    # source posgres database
+  # source posgres database
   source-postgres:
     image: postgres:13
     restart: always
